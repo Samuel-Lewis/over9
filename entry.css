@@ -31,6 +31,14 @@
   --entry-fade: #381C19;
 }
 
+#grand_budapest_hotel {
+  --entry-bg: url('images/grand_budapest_hotel.jpg');
+  --entry-title: #c3403c;
+  --entry-subtitle: #AB7A76;
+  --entry-body: #91483b;
+  --entry-fade: #1E1215;
+}
+
 #drive {
   --entry-bg: url('images/drive.jpg');
   --entry-bg-pos: top;
@@ -55,6 +63,14 @@
   --entry-subtitle: #C5D4CA;
   --entry-body: #98AAA6;
   --entry-fade: #524438;
+}
+
+#incredibles {
+  --entry-bg: url('images/incredibles.jpg');
+  --entry-title: #D61721;
+  --entry-subtitle: #E5652D;
+  --entry-body: #CC937A;
+  --entry-fade: #441316;
 }
 
 #lotr {

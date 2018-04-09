@@ -42,6 +42,12 @@ header .arrow {
   color: var(--entry-body);
   background: linear-gradient(to right, var(--entry-fade), transparent), var(--entry-bg) no-repeat var(--entry-bg-pos);
   background-size: cover;
+
+}
+
+.entry li {
+  list-style-type: none;
+  padding: 5px;
 }
 
 .entry .title {
