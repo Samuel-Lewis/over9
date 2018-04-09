@@ -31,6 +31,15 @@
   --entry-fade: #042A47;
 }
 
+#dark_knight {
+  --entry-bg: url('images/dark_knight.jpg');
+  --entry-bg-pos: top;
+  --entry-title: #A9B7AF;
+  --entry-subtitle: #55818C;
+  --entry-body: #215E78;
+  --entry-fade: #041129;
+}
+
 #hot_fuzz {
   --entry-bg: url('images/hot_fuzz.jpg');
   --entry-title: #8CBCB4;
