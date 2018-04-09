@@ -1,3 +1,12 @@
+:root {
+  --entry-bg: url('');
+  --entry-bg-pos: center;
+  --entry-title: white;
+  --entry-subtitle: lightgrey;
+  --entry-body: grey;
+  --entry-fade: black;
+}
+
 #dunkirk {
   --entry-bg: url('images/dunkirk.jpg');
   --entry-title: #B3DCEB;
