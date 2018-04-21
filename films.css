@@ -8,7 +8,7 @@
 }
 
 #dunkirk {
-  --entry-bg: url('images/dunkirk.jpg');
+  --entry-bg: url('images/films/dunkirk.jpg');
   --entry-title: #B3DCEB;
   --entry-subtitle: #8DB1C7;
   --entry-body: #335F76;
@@ -16,7 +16,7 @@
 }
 
 #blade_runner_2049 {
-  --entry-bg: url('images/blade_runner_2049.png');
+  --entry-bg: url('images/films/blade_runner_2049.png');
   --entry-title: #EBC18B;
   --entry-subtitle: #D17411;
   --entry-body: #AA4D08;
@@ -24,7 +24,7 @@
 }
 
 #baby_driver {
-  --entry-bg: url('images/baby_driver.jpg');
+  --entry-bg: url('images/films/baby_driver.jpg');
   --entry-title: #E14C6A;
   --entry-subtitle: #EA7284;
   --entry-body: #ECCAA4;
@@ -32,7 +32,7 @@
 }
 
 #grand_budapest_hotel {
-  --entry-bg: url('images/grand_budapest_hotel.jpg');
+  --entry-bg: url('images/films/grand_budapest_hotel.jpg');
   --entry-title: #c3403c;
   --entry-subtitle: #AB7A76;
   --entry-body: #91483b;
@@ -40,7 +40,7 @@
 }
 
 #drive {
-  --entry-bg: url('images/drive.jpg');
+  --entry-bg: url('images/films/drive.jpg');
   --entry-bg-pos: top;
   --entry-title: #D3DAD1;
   --entry-subtitle: #12B6BF;
@@ -49,7 +49,7 @@
 }
 
 #dark_knight {
-  --entry-bg: url('images/dark_knight.jpg');
+  --entry-bg: url('images/films/dark_knight.jpg');
   --entry-bg-pos: top;
   --entry-title: #A9B7AF;
   --entry-subtitle: #55818C;
@@ -58,7 +58,7 @@
 }
 
 #hot_fuzz {
-  --entry-bg: url('images/hot_fuzz.jpg');
+  --entry-bg: url('images/films/hot_fuzz.jpg');
   --entry-title: #8CBCB4;
   --entry-subtitle: #C5D4CA;
   --entry-body: #98AAA6;
@@ -66,7 +66,7 @@
 }
 
 #incredibles {
-  --entry-bg: url('images/incredibles.jpg');
+  --entry-bg: url('images/films/incredibles.jpg');
   --entry-title: #D61721;
   --entry-subtitle: #E5652D;
   --entry-body: #CC937A;
@@ -74,7 +74,7 @@
 }
 
 #lotr {
-  --entry-bg: url('images/lotr.jpg');
+  --entry-bg: url('images/films/lotr.jpg');
   --entry-title: #C3CFB7;
   --entry-subtitle: #B7C8C1;
   --entry-body: #6F9083;
