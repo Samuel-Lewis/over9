@@ -7,6 +7,14 @@
   --entry-fade: black;
 }
 
+#spider-man_into_the_spider-verse {
+  --entry-bg: url('images/films/spider-man_into_the_spider-verse.jpg');
+  --entry-title: #B3DCEB;
+  --entry-subtitle: #8DB1C7;
+  --entry-body: #335F76;
+  --entry-fade: #081217;
+}
+
 #dunkirk {
   --entry-bg: url('images/films/dunkirk.jpg');
   --entry-title: #B3DCEB;
