@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: white;
   background: black;
 }
@@ -40,9 +40,9 @@ header .arrow {
   padding: 50px;
   margin: 0px;
   color: var(--entry-body);
-  background: linear-gradient(to right, var(--entry-fade), transparent), var(--entry-bg) no-repeat var(--entry-bg-pos);
+  background: linear-gradient(to right, var(--entry-fade), transparent),
+    var(--entry-bg) no-repeat var(--entry-bg-pos);
   background-size: cover;
-
 }
 
 .entry li {
@@ -56,4 +56,19 @@ header .arrow {
 
 .entry .subtitle {
   color: var(--entry-subtitle);
+}
+
+.entry a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.entry a:hover {
+  text-decoration: underline;
+}
+
+#honors ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
