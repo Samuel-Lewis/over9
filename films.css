@@ -7,84 +7,92 @@
   --entry-fade: black;
 }
 
+#jojo_rabbit {
+  --entry-bg: url('images/films/jojo_rabbit.jpg');
+  --entry-title: #EBD7CA;
+  --entry-subtitle: #BF9975;
+  --entry-body: #856047;
+  --entry-fade: #2d2214;
+}
+
 #spider-man_into_the_spider-verse {
   --entry-bg: url('images/films/spider-man_into_the_spider-verse.jpg');
-  --entry-title: #D70E13;
-  --entry-subtitle: #AACEEA;
-  --entry-body: #6588A8;
-  --entry-fade: #191F33;
+  --entry-title: #d70e13;
+  --entry-subtitle: #aaceea;
+  --entry-body: #6588a8;
+  --entry-fade: #191f33;
 }
 
 #dunkirk {
   --entry-bg: url('images/films/dunkirk.jpg');
-  --entry-title: #B3DCEB;
-  --entry-subtitle: #8DB1C7;
-  --entry-body: #335F76;
+  --entry-title: #b3dceb;
+  --entry-subtitle: #8db1c7;
+  --entry-body: #335f76;
   --entry-fade: #081217;
 }
 
 #blade_runner_2049 {
   --entry-bg: url('images/films/blade_runner_2049.png');
-  --entry-title: #EBC18B;
-  --entry-subtitle: #D17411;
-  --entry-body: #AA4D08;
-  --entry-fade: #1F0D05;
+  --entry-title: #ebc18b;
+  --entry-subtitle: #d17411;
+  --entry-body: #aa4d08;
+  --entry-fade: #1f0d05;
 }
 
 #baby_driver {
   --entry-bg: url('images/films/baby_driver.jpg');
-  --entry-title: #E14C6A;
-  --entry-subtitle: #EA7284;
-  --entry-body: #BCA183;
-  --entry-fade: #381C19;
+  --entry-title: #e14c6a;
+  --entry-subtitle: #ea7284;
+  --entry-body: #bca183;
+  --entry-fade: #381c19;
 }
 
 #grand_budapest_hotel {
   --entry-bg: url('images/films/grand_budapest_hotel.jpg');
   --entry-title: #c3403c;
-  --entry-subtitle: #AB7A76;
+  --entry-subtitle: #ab7a76;
   --entry-body: #91483b;
-  --entry-fade: #1E1215;
+  --entry-fade: #1e1215;
 }
 
 #drive {
   --entry-bg: url('images/films/drive.jpg');
   --entry-bg-pos: top;
-  --entry-title: #D3DAD1;
-  --entry-subtitle: #12B6BF;
-  --entry-body: #0484B5;
-  --entry-fade: #042A47;
+  --entry-title: #d3dad1;
+  --entry-subtitle: #12b6bf;
+  --entry-body: #0484b5;
+  --entry-fade: #042a47;
 }
 
 #dark_knight {
   --entry-bg: url('images/films/dark_knight.jpg');
   --entry-bg-pos: top;
-  --entry-title: #A9B7AF;
-  --entry-subtitle: #55818C;
-  --entry-body: #215E78;
+  --entry-title: #a9b7af;
+  --entry-subtitle: #55818c;
+  --entry-body: #215e78;
   --entry-fade: #041129;
 }
 
 #hot_fuzz {
   --entry-bg: url('images/films/hot_fuzz.jpg');
-  --entry-title: #8CBCB4;
-  --entry-subtitle: #C5D4CA;
-  --entry-body: #98AAA6;
+  --entry-title: #8cbcb4;
+  --entry-subtitle: #c5d4ca;
+  --entry-body: #98aaa6;
   --entry-fade: #524438;
 }
 
 #incredibles {
   --entry-bg: url('images/films/incredibles.jpg');
-  --entry-title: #D61721;
-  --entry-subtitle: #E5652D;
-  --entry-body: #CC937A;
+  --entry-title: #d61721;
+  --entry-subtitle: #e5652d;
+  --entry-body: #cc937a;
   --entry-fade: #441316;
 }
 
 #lotr {
   --entry-bg: url('images/films/lotr.jpg');
-  --entry-title: #C3CFB7;
-  --entry-subtitle: #B7C8C1;
-  --entry-body: #6F9083;
-  --entry-fade: #313D36;
+  --entry-title: #c3cfb7;
+  --entry-subtitle: #b7c8c1;
+  --entry-body: #6f9083;
+  --entry-fade: #313d36;
 }
