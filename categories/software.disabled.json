@@ -12,12 +12,8 @@
       "authors": ["Taika Waititi"],
       "description": "Roman Griffin Davis, Thomasin McKenzie, Scarlett Johansson",
       "backgroundImg": "jojo_rabbit.jpg",
-      "colours": {
-        "primary": "#EBD7CA",
-        "secondary": "#BF9975",
-        "body": "#856047",
-        "background": "#2d2214"
-      }
+      "primaryColour": "#EBD7CA",
+      "secondaryColour": "#BF9975"
     },
     {
       "link": "https://www.imdb.com/title/tt4633694/",
@@ -27,12 +23,8 @@
       "authors": ["Bob Persichetti", "Peter Ramsey", "Rodney Rothman"],
       "description": "Shameik Moore, Jake Johnson, Hailee Steinfeld",
       "backgroundImg": "spider-man_into_the_spider-verse.jpg",
-      "colours": {
-        "primary": "#d70e13",
-        "secondary": "#aaceea",
-        "body": "#6588a8",
-        "background": "#191f33"
-      }
+      "primaryColour": "#D70E13",
+      "secondaryColour": "#AACEEA"
     },
     {
       "link": "https://www.imdb.com/title/tt5013056/",
@@ -42,12 +34,8 @@
       "authors": ["Christopher Nolan"],
       "description": "Fionn Whitehead, Barry Keoghan, Mark Rylance",
       "backgroundImg": "dunkirk.jpg",
-      "colours": {
-        "primary": "#b3dceb",
-        "secondary": "#8db1c7",
-        "body": "#335f76",
-        "background": "#081217"
-      }
+      "primaryColour": "#B3DCEB",
+      "secondaryColour": "#8DB1C7"
     },
     {
       "link": "https://www.imdb.com/title/tt1856101/",
@@ -57,12 +45,8 @@
       "authors": ["Dennis Villeneuve"],
       "description": "Harrison Ford, Ryan Gosling, Ana de Armas",
       "backgroundImg": "blade_runner_2049.png",
-      "colours": {
-        "primary": "#ebc18b",
-        "secondary": "#d17411",
-        "body": "#aa4d08",
-        "background": "#1f0d05"
-      }
+      "primaryColour": "#EBC18B",
+      "secondaryColour": "#D17411"
     },
     {
       "link": "https://www.imdb.com/title/tt3890160/",
@@ -72,12 +56,8 @@
       "authors": ["Edgar Wright"],
       "description": "Ansel Elgort, Jon Bernthal, Jon Hamm",
       "backgroundImg": "baby_driver.jpg",
-      "colours": {
-        "primary": "#e14c6a",
-        "secondary": "#ea7284",
-        "body": "#bca183",
-        "background": "#381c19"
-      }
+      "primaryColour": "#E14C6A",
+      "secondaryColour": "#EA7284"
     },
     {
       "link": "https://www.imdb.com/title/tt2278388/",
@@ -87,12 +67,8 @@
       "authors": ["Wes Anderson"],
       "description": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
       "backgroundImg": "grand_budapest_hotel.jpg",
-      "colours": {
-        "primary": "#c3403c",
-        "secondary": "#ab7a76",
-        "body": "#91483b",
-        "background": "#1e1215"
-      }
+      "primaryColour": "#C3403C",
+      "secondaryColour": "#AB7A76"
     },
     {
       "link": "https://www.imdb.com/title/tt0780504/",
@@ -102,12 +78,8 @@
       "authors": ["Nicolas Winding Refn"],
       "description": "Ryan Gosling, Carey Mulligan, Bryan Cranston",
       "backgroundImg": "drive.jpg",
-      "colours": {
-        "primary": "#d3dad1",
-        "secondary": "#12b6bf",
-        "body": "#0484b5",
-        "background": "#042a47"
-      }
+      "primaryColour": "#D3DAD1",
+      "secondaryColour": "#12B6BF"
     },
     {
       "link": "https://www.imdb.com/title/tt0468569/",
@@ -117,12 +89,8 @@
       "authors": ["Christopher Nolan"],
       "description": "Christian Bale, Heath Ledger, Aaron Eckhart",
       "backgroundImg": "dark_knight.jpg",
-      "colours": {
-        "primary": "#a9b7af",
-        "secondary": "#55818c",
-        "body": "#215e78",
-        "background": "#041129"
-      }
+      "primaryColour": "#A9B7AF",
+      "secondaryColour": "#55818C"
     },
     {
       "link": "https://www.imdb.com/title/tt0425112/",
@@ -132,12 +100,8 @@
       "authors": ["Edgar Wright"],
       "description": "Simon Pegg, Nick Frost, Martin Freeman",
       "backgroundImg": "hot_fuzz.jpg",
-      "colours": {
-        "primary": "#8cbcb4",
-        "secondary": "#c5d4ca",
-        "body": "#98aaa6",
-        "background": "#524438"
-      }
+      "primaryColour": "#8CBCB4",
+      "secondaryColour": "#C5D4CA"
     },
     {
       "link": "https://www.imdb.com/title/tt0317705/",
@@ -147,12 +111,8 @@
       "authors": ["Brad Bird"],
       "description": "Craig T. Nelson, Samuel L. Jackson, Holly Hunter",
       "backgroundImg": "incredibles.jpg",
-      "colours": {
-        "primary": "#d61721",
-        "secondary": "#e5652d",
-        "body": "#cc937a",
-        "background": "#441316"
-      }
+      "primaryColour": "#D61721",
+      "secondaryColour": "#E5652D"
     },
     {
       "link": "https://www.imdb.com/title/tt0120737/",
@@ -162,12 +122,8 @@
       "authors": ["Peter Jackson"],
       "description": "Elijah Wood, Ian McKellen, Orlando Bloom",
       "backgroundImg": "lotr.jpg",
-      "colours": {
-        "primary": "#c3cfb7",
-        "secondary": "#b7c8c1",
-        "body": "#6f9083",
-        "background": "#313d36"
-      }
+      "primaryColour": "#C3CFB7",
+      "secondaryColour": "#B7C8C1"
     }
   ],
   "honorables": [

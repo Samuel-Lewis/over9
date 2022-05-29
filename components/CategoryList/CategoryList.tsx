@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { ICategory } from "../lib/types";
+import classes from "./CategoryList.module.css";
+import { ICategory } from "../../lib/types";
+import Link from "next/link";
 
 export type CategoryListProps = {
   children: React.ReactNode;
@@ -11,7 +13,11 @@ const CategoryList: React.FC<CategoryListProps> = ({ children, title }) => {
       <Head>
         <title>Over9 | {title}</title>
       </Head>
-      <h1>{title}</h1>
+      <div className={classes.header}>
+        <h1>
+          <Link href="/">🡄</Link> {title}
+        </h1>
+      </div>
       <div>{children}</div>
     </>
   );

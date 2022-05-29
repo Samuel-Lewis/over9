@@ -5,12 +5,8 @@ export interface IItem {
   tags?: string[];
   authors?: string[];
   description?: string;
-  colours?: {
-    primary?: string;
-    secondary?: string;
-    background?: string;
-    body?: string;
-  };
+  primaryColour?: string;
+  secondaryColour?: string;
   backgroundImg?: string;
 }
 
