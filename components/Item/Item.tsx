@@ -8,7 +8,7 @@ import path from "path";
 export type ItemProps = { mappings: ICategory["mappings"], priority: boolean } & IItem;
 
 const imageLoader = ({ src }: { src: string }) => {
-  return `/static/images/film/${src}`;
+  return `/over9/static/images/film/${src}`;
 }
 
 const Item: React.FC<ItemProps> = ({
