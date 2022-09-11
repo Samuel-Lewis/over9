@@ -1,17 +1,21 @@
-import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import CategoryList from "../components/CategoryList/CategoryList";
-import Item from "../components/Item/Item";
-import { getCategories, getCategory } from "../lib/data";
-import type { ICategory } from "../lib/types";
-import Honorables from "../components/Honorables/Honorables";
-import { ParsedUrlQuery } from "querystring";
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import CategoryList from '../components/CategoryList/CategoryList';
+import Item from '../components/Item/Item';
+import { getCategories, getCategory } from '../lib/data';
+import type { ICategory } from '../lib/types';
+import Honorables from '../components/Honorables/Honorables';
+import { ParsedUrlQuery } from 'querystring';
 
 export type CategoryPageProps = {
   category: string;
-  data: ICategory;
+  data: ICategory | undefined;
 };
 
 const Category: NextPage<CategoryPageProps> = ({ category, data }) => {
+  if (!data) {
+    return <p>Category {category} could not be found</p>;
+  }
+
   return (
     <>
       <CategoryList title={category}>
@@ -21,7 +25,12 @@ const Category: NextPage<CategoryPageProps> = ({ category, data }) => {
               new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime()
           )
           .map((item, index) => (
-            <Item {...item} key={item.title} mappings={data.mappings} priority={index < 2} />
+            <Item
+              {...item}
+              key={item.title}
+              mappings={data.mappings}
+              priority={index < 2}
+            />
           ))}
         {data.honorables && (
           <Honorables

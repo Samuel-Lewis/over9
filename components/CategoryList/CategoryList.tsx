@@ -1,11 +1,11 @@
-import Head from "next/head";
-import classes from "./CategoryList.module.css";
-import { ICategory } from "../../lib/types";
-import Link from "next/link";
+import Head from 'next/head';
+import classes from './CategoryList.module.css';
+import { ICategory } from '../../lib/types';
+import Link from 'next/link';
 
 export type CategoryListProps = {
   children: React.ReactNode;
-} & Pick<ICategory, "title" | "mappings">;
+} & Pick<ICategory, 'title' | 'mappings'>;
 
 const CategoryList: React.FC<CategoryListProps> = ({ children, title }) => {
   return (

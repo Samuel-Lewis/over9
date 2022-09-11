@@ -1,10 +1,13 @@
-import Image from "next/image";
-import { ICategory, IItem } from "../../lib/types";
-import classes from "./Item.module.css";
-import Color from "color";
-import { useState } from "react";
+import Image from 'next/image';
+import { ICategory, IItem } from '../../lib/types';
+import classes from './Item.module.css';
+import Color from 'color';
+import { useState } from 'react';
 
-export type ItemProps = { mappings: ICategory["mappings"], priority: boolean } & IItem;
+export type ItemProps = {
+  mappings: ICategory['mappings'];
+  priority: boolean;
+} & IItem;
 
 const Item: React.FC<ItemProps> = ({
   title,
@@ -29,7 +32,7 @@ const Item: React.FC<ItemProps> = ({
     <div className={classes.item}>
       {backgroundImg && (
         <Image
-          src={`/over9/static/images/film/${backgroundImg}`}
+          src={backgroundImg}
           alt={title}
           layout="fill"
           priority={priority}
@@ -67,11 +70,11 @@ const Item: React.FC<ItemProps> = ({
         </h2>
         <h3 className={classes.subtitle}>
           {date && <span>{new Date(date).getFullYear()} | </span>}
-          {tags && <span>{tags.join(", ")}</span>}
+          {tags && <span>{tags.join(', ')}</span>}
         </h3>
 
         {authors && (
-          <p style={{ color: darkerText.string() }}>{authors.join(", ")}</p>
+          <p style={{ color: darkerText.string() }}>{authors.join(', ')}</p>
         )}
         {description && (
           <p style={{ color: darkerText.string() }}>{description}</p>

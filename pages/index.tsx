@@ -1,8 +1,8 @@
-import type { GetStaticProps, NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
-import { getCategories } from "../lib/data";
-import classes from "./index.module.css";
+import type { GetStaticProps, NextPage } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import { getCategories } from '../lib/data';
+import classes from './index.module.css';
 
 export type NextPageProps = {
   categories: string[];
@@ -38,7 +38,7 @@ const Home: NextPage<NextPageProps> = ({ categories }) => {
       </main>
       <footer className={classes.footer}>
         <p>
-          Made by{" "}
+          Made by{' '}
           <a
             href="https://samuel-lewis.com/"
             rel="noopener noreferrer"

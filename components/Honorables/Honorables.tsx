@@ -1,8 +1,8 @@
-import { ICategory, IItem } from "../../lib/types";
-import classes from "./Honorables.module.css";
+import { ICategory, IItem } from '../../lib/types';
+import classes from './Honorables.module.css';
 
 export type HonorablesProps = {
-  mappings?: ICategory["mappings"];
+  mappings?: ICategory['mappings'];
   honorables: IItem[];
 };
 
