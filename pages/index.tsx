@@ -17,7 +17,6 @@ const Home: NextPage<NextPageProps> = ({ categories }) => {
           name="description"
           content="A list of things I have rated 9 or more, out of 10."
         />
-        {/* TODO: Change favicon */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={classes.center}>

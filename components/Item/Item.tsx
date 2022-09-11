@@ -5,7 +5,7 @@ import Color from "color";
 import { useState } from "react";
 import path from "path";
 
-export type ItemProps = { mappings: ICategory["mappings"] } & IItem;
+export type ItemProps = { mappings: ICategory["mappings"], priority: boolean } & IItem;
 
 const imageLoader = ({ src }: { src: string }) => {
   return `images/film/${src}`;
@@ -21,6 +21,7 @@ const Item: React.FC<ItemProps> = ({
   primaryColour,
   secondaryColour,
   backgroundImg,
+  priority,
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const backgroundColour = Color(secondaryColour)
@@ -37,6 +38,7 @@ const Item: React.FC<ItemProps> = ({
           loader={imageLoader}
           alt={title}
           layout="fill"
+          priority={priority}
           objectFit="cover"
           className={classes.image}
           style={{
