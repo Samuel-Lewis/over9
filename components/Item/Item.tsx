@@ -7,6 +7,10 @@ import path from "path";
 
 export type ItemProps = { mappings: ICategory["mappings"] } & IItem;
 
+const imageLoader = ({ src }: { src: string }) => {
+  return `images/film/${src}`;
+}
+
 const Item: React.FC<ItemProps> = ({
   title,
   date,
@@ -29,7 +33,8 @@ const Item: React.FC<ItemProps> = ({
     <div className={classes.item}>
       {backgroundImg && (
         <Image
-          src={path.join("/", "images", "film", backgroundImg)}
+          src={backgroundImg}
+          loader={imageLoader}
           alt={title}
           layout="fill"
           objectFit="cover"
