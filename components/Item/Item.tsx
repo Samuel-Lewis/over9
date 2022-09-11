@@ -3,13 +3,8 @@ import { ICategory, IItem } from "../../lib/types";
 import classes from "./Item.module.css";
 import Color from "color";
 import { useState } from "react";
-import path from "path";
 
 export type ItemProps = { mappings: ICategory["mappings"], priority: boolean } & IItem;
-
-const imageLoader = ({ src }: { src: string }) => {
-  return `/over9/static/images/film/${src}`;
-}
 
 const Item: React.FC<ItemProps> = ({
   title,
@@ -34,8 +29,7 @@ const Item: React.FC<ItemProps> = ({
     <div className={classes.item}>
       {backgroundImg && (
         <Image
-          src={backgroundImg}
-          loader={imageLoader}
+          src={`/over9/static/images/film/${backgroundImg}`}
           alt={title}
           layout="fill"
           priority={priority}
