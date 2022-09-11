@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  background: black;
+  transition: font-size 0.2s ease-out;
+}
+
+a {
+  text-decoration-color: rgba(255, 255, 255, 0.2);
+  text-underline-offset: 4px;
+  color: unset;
+}
+
+a:hover {
+  text-decoration-color: white;
+  color: unset;
+}
+
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    font-size: 0.8em;
+    
+  }
+}

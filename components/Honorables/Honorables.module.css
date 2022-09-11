@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 32px;
+}
+
+.list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.listItem {
+  padding: 8px;
+  opacity: 0.8;
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .list {
+    columns: initial;
+    -webkit-columns: initial;
+    -moz-columns: initial;
+  }
+}
