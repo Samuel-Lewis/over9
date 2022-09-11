@@ -1,15 +1,4 @@
 import { ICategory } from '../../lib/types';
-import JojoRabbit from './jojo_rabbit.jpg';
-import SpiderMan from './spider-man_into_the_spider-verse.jpg';
-import Dunkirk from './dunkirk.jpg';
-import BladeRunner from './blade_runner_2049.png';
-import BabyDriver from './baby_driver.jpg';
-import GrandBudapest from './grand_budapest_hotel.jpg';
-import Drive from './drive.jpg';
-import DarkKnight from './dark_knight.jpg';
-import HotFuzz from './hot_fuzz.jpg';
-import Incredibles from './incredibles.jpg';
-import LotR from './lotr.jpg';
 
 export const listFilm: ICategory = {
   title: 'Film',
@@ -24,7 +13,7 @@ export const listFilm: ICategory = {
       tags: ['Comedy', 'Drama', 'War'],
       authors: ['Taika Waititi'],
       description: 'Roman Griffin Davis, Thomasin McKenzie, Scarlett Johansson',
-      backgroundImg: JojoRabbit,
+      backgroundImg: 'jojo_rabbit.jpg',
       primaryColour: '#EBD7CA',
       secondaryColour: '#BF9975',
     },
@@ -35,7 +24,7 @@ export const listFilm: ICategory = {
       tags: ['Animation', 'Action', 'Adventure'],
       authors: ['Bob Persichetti', 'Peter Ramsey', 'Rodney Rothman'],
       description: 'Shameik Moore, Jake Johnson, Hailee Steinfeld',
-      backgroundImg: SpiderMan,
+      backgroundImg: 'spider-man_into_the_spider-verse.jpg',
       primaryColour: '#D70E13',
       secondaryColour: '#AACEEA',
     },
@@ -46,7 +35,7 @@ export const listFilm: ICategory = {
       tags: ['War', 'Action', 'Suspense'],
       authors: ['Christopher Nolan'],
       description: 'Fionn Whitehead, Barry Keoghan, Mark Rylance',
-      backgroundImg: Dunkirk,
+      backgroundImg: 'dunkirk.jpg',
       primaryColour: '#B3DCEB',
       secondaryColour: '#8DB1C7',
     },
@@ -57,7 +46,7 @@ export const listFilm: ICategory = {
       tags: ['Sci-Fi', 'Thriller', 'Arthouse'],
       authors: ['Dennis Villeneuve'],
       description: 'Harrison Ford, Ryan Gosling, Ana de Armas',
-      backgroundImg: BladeRunner,
+      backgroundImg: 'blade_runner_2049.png',
       primaryColour: '#EBC18B',
       secondaryColour: '#D17411',
     },
@@ -68,7 +57,7 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Comedy', 'Music'],
       authors: ['Edgar Wright'],
       description: 'Ansel Elgort, Jon Bernthal, Jon Hamm',
-      backgroundImg: BabyDriver,
+      backgroundImg: 'baby_driver.jpg',
       primaryColour: '#E14C6A',
       secondaryColour: '#EA7284',
     },
@@ -79,7 +68,7 @@ export const listFilm: ICategory = {
       tags: ['Comedy', 'Arthouse', 'Adventure'],
       authors: ['Wes Anderson'],
       description: 'Ralph Fiennes, F. Murray Abraham, Mathieu Amalric',
-      backgroundImg: GrandBudapest,
+      backgroundImg: 'grand_budapest_hotel.jpg',
       primaryColour: '#C3403C',
       secondaryColour: '#AB7A76',
     },
@@ -90,7 +79,7 @@ export const listFilm: ICategory = {
       tags: ['Crime', 'Drama'],
       authors: ['Nicolas Winding Refn'],
       description: 'Ryan Gosling, Carey Mulligan, Bryan Cranston',
-      backgroundImg: Drive,
+      backgroundImg: 'drive.jpg',
       primaryColour: '#D3DAD1',
       secondaryColour: '#12B6BF',
     },
@@ -101,7 +90,7 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Superhero', 'Dark'],
       authors: ['Christopher Nolan'],
       description: 'Christian Bale, Heath Ledger, Aaron Eckhart',
-      backgroundImg: DarkKnight,
+      backgroundImg: 'dark_knight.jpg',
       primaryColour: '#A9B7AF',
       secondaryColour: '#55818C',
     },
@@ -112,7 +101,7 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Comedy'],
       authors: ['Edgar Wright'],
       description: 'Simon Pegg, Nick Frost, Martin Freeman',
-      backgroundImg: HotFuzz,
+      backgroundImg: 'hot_fuzz.jpg',
       primaryColour: '#8CBCB4',
       secondaryColour: '#C5D4CA',
     },
@@ -123,7 +112,7 @@ export const listFilm: ICategory = {
       tags: ['Animation', 'Adventure', 'Superhero'],
       authors: ['Brad Bird'],
       description: 'Craig T. Nelson, Samuel L. Jackson, Holly Hunter',
-      backgroundImg: Incredibles,
+      backgroundImg: 'incredibles.jpg',
       primaryColour: '#D61721',
       secondaryColour: '#E5652D',
     },
@@ -134,7 +123,7 @@ export const listFilm: ICategory = {
       tags: ['Adventure', 'Fantasy'],
       authors: ['Peter Jackson'],
       description: 'Elijah Wood, Ian McKellen, Orlando Bloom',
-      backgroundImg: LotR,
+      backgroundImg: 'lotr.jpg',
       primaryColour: '#C3CFB7',
       secondaryColour: '#B7C8C1',
     },

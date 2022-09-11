@@ -32,7 +32,7 @@ const Item: React.FC<ItemProps> = ({
     <div className={classes.item}>
       {backgroundImg && (
         <Image
-          src={backgroundImg}
+          src={`/over9/film/${backgroundImg}`}
           alt={title}
           layout="fill"
           priority={priority}

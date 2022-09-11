@@ -9,7 +9,7 @@ export interface IItem {
   description?: string;
   primaryColour?: string;
   secondaryColour?: string;
-  backgroundImg?: StaticImageData;
+  backgroundImg?: string;
 }
 
 export interface ICategory {

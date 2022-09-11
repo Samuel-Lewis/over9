@@ -4,7 +4,6 @@ const nextConfig = {
   basePath: '/over9',
   images: {
     unoptimized: true,
-    disableStaticImages: true,
   },
 };
 
