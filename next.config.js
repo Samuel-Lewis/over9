@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   basePath: '/over9',
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
