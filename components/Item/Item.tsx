@@ -9,6 +9,10 @@ export type ItemProps = {
   priority: boolean;
 } & IItem;
 
+const loader = ({ src }: { src: string }) => {
+  return `/over9/film/${src}`;
+};
+
 const Item: React.FC<ItemProps> = ({
   title,
   date,
@@ -32,7 +36,8 @@ const Item: React.FC<ItemProps> = ({
     <div className={classes.item}>
       {backgroundImg && (
         <Image
-          src={`/over9/film/${backgroundImg}`}
+          src={backgroundImg}
+          loader={loader}
           alt={title}
           layout="fill"
           priority={priority}

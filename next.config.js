@@ -3,7 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '/over9',
   images: {
-    unoptimized: true,
+    loader: 'imgix',
+    path: '/',
   },
 };
 
