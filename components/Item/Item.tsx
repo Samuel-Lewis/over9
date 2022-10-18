@@ -1,6 +1,7 @@
 import { ICategory, IItem } from '../../lib/types';
 import classes from './Item.module.css';
 import Color from 'color';
+import { prefix } from '../../lib/prefix';
 
 export type ItemProps = {
   mappings: ICategory['mappings'];
@@ -11,7 +12,7 @@ const loader = (src?: string) => {
     return '';
   }
 
-  return `/over9/category/film/${src}`;
+  return `${prefix}/category/film/${src}`;
 };
 
 const Item: React.FC<ItemProps> = ({
