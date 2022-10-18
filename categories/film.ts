@@ -1,4 +1,4 @@
-import { ICategory } from '../../lib/types';
+import { ICategory } from '../lib/types';
 
 export const listFilm: ICategory = {
   title: 'Film',

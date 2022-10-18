@@ -24,13 +24,8 @@ const Category: NextPage<CategoryPageProps> = ({ category, data }) => {
             (a, b) =>
               new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime()
           )
-          .map((item, index) => (
-            <Item
-              {...item}
-              key={item.title}
-              mappings={data.mappings}
-              priority={index < 2}
-            />
+          .map((item) => (
+            <Item {...item} key={item.title} mappings={data.mappings} />
           ))}
         {data.honorables && (
           <Honorables

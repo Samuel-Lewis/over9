@@ -1,16 +1,17 @@
-import Image from 'next/image';
 import { ICategory, IItem } from '../../lib/types';
 import classes from './Item.module.css';
 import Color from 'color';
-import { useState } from 'react';
 
 export type ItemProps = {
   mappings: ICategory['mappings'];
-  priority: boolean;
 } & IItem;
 
-const loader = ({ src }: { src: string }) => {
-  return `/over9/film/${src}`;
+const loader = (src?: string) => {
+  if (!src) {
+    return '';
+  }
+
+  return `/over9/category/film/${src}`;
 };
 
 const Item: React.FC<ItemProps> = ({
@@ -23,9 +24,7 @@ const Item: React.FC<ItemProps> = ({
   primaryColour,
   secondaryColour,
   backgroundImg,
-  priority,
 }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
   const backgroundColour = Color(secondaryColour)
     .darken(0.8)
     .desaturate(0.5)
@@ -33,24 +32,12 @@ const Item: React.FC<ItemProps> = ({
   const darkerText = Color(secondaryColour).darken(0.1);
 
   return (
-    <div className={classes.item}>
-      {backgroundImg && (
-        <Image
-          src={backgroundImg}
-          loader={loader}
-          alt={title}
-          layout="fill"
-          priority={priority}
-          objectFit="cover"
-          className={classes.image}
-          style={{
-            opacity: isLoaded ? 1 : 0,
-          }}
-          onLoadingComplete={() => {
-            setIsLoaded(true);
-          }}
-        />
-      )}
+    <div
+      className={classes.item}
+      style={{
+        backgroundImage: `url(${loader(backgroundImg)})`,
+      }}
+    >
       <div
         className={classes.screen}
         style={{
