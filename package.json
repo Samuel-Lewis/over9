@@ -2,6 +2,7 @@
   "name": "over9",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://samuel-lewis.com/over9",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
