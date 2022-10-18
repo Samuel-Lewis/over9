@@ -1,7 +1,7 @@
 import { ICategory } from '../lib/types';
 
 export const listFilm: ICategory = {
-  title: 'Film',
+  title: 'film',
   mappings: {
     authors: 'Director',
   },
