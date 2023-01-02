@@ -36,7 +36,7 @@ const Item: React.FC<ItemProps> = ({
     <div
       className={classes.item}
       style={{
-        backgroundImage: `url(${loader(backgroundImg)})`,
+        backgroundImage: `url(${backgroundImg})`,
       }}
     >
       <div
