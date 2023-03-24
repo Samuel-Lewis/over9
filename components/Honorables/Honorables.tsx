@@ -19,7 +19,7 @@ const Honorables: React.FC<HonorablesProps> = ({ mappings, honorables }) => {
           <li className={classes.listItem} key={item.title}>
             <a href={item.link}>
               {item.title}
-              {item.date && ` (${item.date})`}
+              {item.date && ` (${new Date(item.date).getFullYear()})`}
             </a>
           </li>
         ))}
