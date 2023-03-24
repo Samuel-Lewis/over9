@@ -5,9 +5,16 @@
   padding: 32px;
   margin: 0px;
   aspect-ratio: 16/9;
+}
 
-  background-size: cover;
-  background-repeat: no-repeat;
+.banner {
+  object-fit: cover;
+  opacity: 0;
+}
+
+.loaded  {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .content {

@@ -8,10 +8,11 @@ export type CategoryListProps = {
 } & Pick<ICategory, 'title' | 'mappings'>;
 
 const CategoryList: React.FC<CategoryListProps> = ({ children, title }) => {
+  const fullTitle = `Over9${!!title && ` | ${title}`}`;
   return (
     <>
       <Head>
-        <title>Over9 | {title}</title>
+        <title>{fullTitle}</title>
       </Head>
       <div className={classes.header}>
         <h1>

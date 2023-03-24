@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image';
+
 export interface IItem {
   title?: string;
   date?: string;
@@ -7,7 +9,7 @@ export interface IItem {
   description?: string;
   primaryColour?: string;
   secondaryColour?: string;
-  backgroundImg?: string;
+  nextImage?: StaticImageData;
 }
 
 export interface ICategory {

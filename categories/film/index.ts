@@ -1,4 +1,16 @@
-import { ICategory } from '../lib/types';
+import { ICategory } from '../../lib/types';
+
+import JojoRabbit from './jojo_rabbit.jpg';
+import SpiderMan from './spider-man_into_the_spider-verse.jpg';
+import Dunkirk from './dunkirk.jpg';
+import BladeRunner from './blade_runner_2049.png';
+import BabyDriver from './baby_driver.jpg';
+import GrandBudapest from './grand_budapest_hotel.jpg';
+import Drive from './drive.jpg';
+import DarkKnight from './dark_knight.jpg';
+import HotFuzz from './hot_fuzz.jpg';
+import Incredibles from './incredibles.jpg';
+import FellowshipOfTheRing from './fellowship_of_the_ring.jpg';
 
 export const listFilm: ICategory = {
   title: 'film',
@@ -13,9 +25,9 @@ export const listFilm: ICategory = {
       tags: ['Comedy', 'Drama', 'War'],
       authors: ['Taika Waititi'],
       description: 'Roman Griffin Davis, Thomasin McKenzie, Scarlett Johansson',
-      backgroundImg: 'https://i.imgur.com/4xKhRHA.jpeg',
       primaryColour: '#EBD7CA',
       secondaryColour: '#BF9975',
+      nextImage: JojoRabbit,
     },
     {
       link: 'https://www.imdb.com/title/tt4633694/',
@@ -24,9 +36,9 @@ export const listFilm: ICategory = {
       tags: ['Animation', 'Action', 'Adventure'],
       authors: ['Bob Persichetti', 'Peter Ramsey', 'Rodney Rothman'],
       description: 'Shameik Moore, Jake Johnson, Hailee Steinfeld',
-      backgroundImg: 'https://i.imgur.com/9MhGBN7.jpg',
       primaryColour: '#D70E13',
       secondaryColour: '#AACEEA',
+      nextImage: SpiderMan,
     },
     {
       link: 'https://www.imdb.com/title/tt5013056/',
@@ -35,9 +47,9 @@ export const listFilm: ICategory = {
       tags: ['War', 'Action', 'Suspense'],
       authors: ['Christopher Nolan'],
       description: 'Fionn Whitehead, Barry Keoghan, Mark Rylance',
-      backgroundImg: 'https://i.imgur.com/5xNzEpo.jpeg',
       primaryColour: '#B3DCEB',
       secondaryColour: '#8DB1C7',
+      nextImage: Dunkirk,
     },
     {
       link: 'https://www.imdb.com/title/tt1856101/',
@@ -46,9 +58,9 @@ export const listFilm: ICategory = {
       tags: ['Sci-Fi', 'Thriller', 'Arthouse'],
       authors: ['Dennis Villeneuve'],
       description: 'Harrison Ford, Ryan Gosling, Ana de Armas',
-      backgroundImg: 'https://i.imgur.com/FhSK9CP.png',
       primaryColour: '#EBC18B',
       secondaryColour: '#D17411',
+      nextImage: BladeRunner,
     },
     {
       link: 'https://www.imdb.com/title/tt3890160/',
@@ -57,9 +69,9 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Comedy', 'Music'],
       authors: ['Edgar Wright'],
       description: 'Ansel Elgort, Jon Bernthal, Jon Hamm',
-      backgroundImg: 'https://i.imgur.com/Utc3hLX.jpeg',
       primaryColour: '#E14C6A',
       secondaryColour: '#EA7284',
+      nextImage: BabyDriver,
     },
     {
       link: 'https://www.imdb.com/title/tt2278388/',
@@ -68,9 +80,9 @@ export const listFilm: ICategory = {
       tags: ['Comedy', 'Arthouse', 'Adventure'],
       authors: ['Wes Anderson'],
       description: 'Ralph Fiennes, F. Murray Abraham, Mathieu Amalric',
-      backgroundImg: 'https://i.imgur.com/f57FARw.jpg',
       primaryColour: '#C3403C',
       secondaryColour: '#AB7A76',
+      nextImage: GrandBudapest,
     },
     {
       link: 'https://www.imdb.com/title/tt0780504/',
@@ -79,9 +91,9 @@ export const listFilm: ICategory = {
       tags: ['Crime', 'Drama'],
       authors: ['Nicolas Winding Refn'],
       description: 'Ryan Gosling, Carey Mulligan, Bryan Cranston',
-      backgroundImg: 'https://i.imgur.com/GDhxsOx.jpeg',
       primaryColour: '#D3DAD1',
       secondaryColour: '#12B6BF',
+      nextImage: Drive,
     },
     {
       link: 'https://www.imdb.com/title/tt0468569/',
@@ -90,9 +102,9 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Superhero', 'Dark'],
       authors: ['Christopher Nolan'],
       description: 'Christian Bale, Heath Ledger, Aaron Eckhart',
-      backgroundImg: 'https://i.imgur.com/ewGYt2W.jpeg',
       primaryColour: '#A9B7AF',
       secondaryColour: '#55818C',
+      nextImage: DarkKnight,
     },
     {
       link: 'https://www.imdb.com/title/tt0425112/',
@@ -101,9 +113,9 @@ export const listFilm: ICategory = {
       tags: ['Action', 'Comedy'],
       authors: ['Edgar Wright'],
       description: 'Simon Pegg, Nick Frost, Martin Freeman',
-      backgroundImg: 'https://i.imgur.com/V3AUnA9.jpeg',
       primaryColour: '#8CBCB4',
       secondaryColour: '#C5D4CA',
+      nextImage: HotFuzz,
     },
     {
       link: 'https://www.imdb.com/title/tt0317705/',
@@ -112,9 +124,9 @@ export const listFilm: ICategory = {
       tags: ['Animation', 'Adventure', 'Superhero'],
       authors: ['Brad Bird'],
       description: 'Craig T. Nelson, Samuel L. Jackson, Holly Hunter',
-      backgroundImg: 'https://i.imgur.com/yxQ4CA9.jpeg',
       primaryColour: '#D61721',
       secondaryColour: '#E5652D',
+      nextImage: Incredibles,
     },
     {
       link: 'https://www.imdb.com/title/tt0120737/',
@@ -123,9 +135,9 @@ export const listFilm: ICategory = {
       tags: ['Adventure', 'Fantasy'],
       authors: ['Peter Jackson'],
       description: 'Elijah Wood, Ian McKellen, Orlando Bloom',
-      backgroundImg: 'https://i.imgur.com/z8eoGQf.jpeg',
       primaryColour: '#C3CFB7',
       secondaryColour: '#B7C8C1',
+      nextImage: FellowshipOfTheRing,
     },
   ],
   honorables: [

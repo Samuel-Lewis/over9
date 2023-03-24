@@ -1,19 +1,13 @@
 import { ICategory, IItem } from '../../lib/types';
 import classes from './Item.module.css';
 import Color from 'color';
-import { prefix } from '../../lib/prefix';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export type ItemProps = {
+  priority?: boolean;
   mappings: ICategory['mappings'];
 } & IItem;
-
-const loader = (src?: string) => {
-  if (!src) {
-    return '';
-  }
-
-  return `${prefix}/category/film/${src}`;
-};
 
 const Item: React.FC<ItemProps> = ({
   title,
@@ -24,21 +18,29 @@ const Item: React.FC<ItemProps> = ({
   description,
   primaryColour,
   secondaryColour,
-  backgroundImg,
+  nextImage,
+  priority = false,
 }) => {
   const backgroundColour = Color(secondaryColour)
     .darken(0.8)
     .desaturate(0.5)
     .fade(0.1);
   const darkerText = Color(secondaryColour).darken(0.1);
+  const [hasLoaded, setHasLoaded] = useState(false);
 
   return (
-    <div
-      className={classes.item}
-      style={{
-        backgroundImage: `url(${backgroundImg})`,
-      }}
-    >
+    <div className={classes.item}>
+      {nextImage && (
+        <Image
+          src={nextImage}
+          alt={title ?? ''}
+          fill
+          className={`${classes.banner} ${hasLoaded ? classes.loaded : ''}`}
+          priority={priority}
+          onLoadingComplete={() => setHasLoaded(true)}
+        />
+      )}
+
       <div
         className={classes.screen}
         style={{
