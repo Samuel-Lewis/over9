@@ -82,6 +82,16 @@ export const listGame: ICategory = {
   ],
   honorables: [
     {
+      link: 'https://www.igdb.com/games/plateup',
+      title: 'PlateUp!',
+      date: '4 August 2022',
+    },
+    {
+      link: 'https://www.igdb.com/games/space-engineers',
+      title: 'Space Engineers',
+      date: '28 February 2019',
+    },
+    {
       link: 'https://www.igdb.com/games/rimworld',
       title: 'Rimworld',
       date: '17 October 2018',

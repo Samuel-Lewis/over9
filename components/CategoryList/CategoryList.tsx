@@ -16,7 +16,7 @@ const CategoryList: React.FC<CategoryListProps> = ({ children, title }) => {
       </Head>
       <div className={classes.header}>
         <h1>
-          <Link href="/">🡄</Link> {title}
+          <Link href="/">⮜</Link> {title}
         </h1>
       </div>
       <div>{children}</div>
