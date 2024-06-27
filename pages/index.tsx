@@ -39,11 +39,7 @@ const Home: NextPage<NextPageProps> = ({ categories }) => {
       <footer className={classes.footer}>
         <p>
           Made by{' '}
-          <a
-            href="https://samuel-lewis.com/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a href="https://samuel-lewis.com/" target="_blank">
             Samuel Lewis
           </a>
         </p>
