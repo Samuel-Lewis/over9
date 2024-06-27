@@ -26,8 +26,6 @@ concurrency:
 jobs:
   # Build job
   build:
-    env:
-      NEXT_PUBLIC_BASE_PATH: /over9
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
